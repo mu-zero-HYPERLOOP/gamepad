@@ -1,0 +1,12 @@
+[package]
+name = "gamepad"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gilrs = "0.10.4"
+can-live-config-rs = { git = "https://github.com/mu-zero-HYPERLOOP/can-live-config-rs.git" }
+can-socketcan-platform-rs = { git = "https://github.com/mu-zero-HYPERLOOP/can-socketcan-platform-rs.git" }
+can-config-rs = { git = "https://github.com/mu-zero-HYPERLOOP/can-config-rs.git"}
